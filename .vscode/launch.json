@@ -1,0 +1,190 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "bytetest.sim Test",
+            "type": "cppdbg",
+            "request": "launch",
+            "preLaunchTask": "g++",
+            "program": "${workspaceRoot}/thumbsim.exe",
+            "args": ["-i", "-d", "-f", "inputs/bytetest.sim"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceRoot}",
+            "environment": [],
+            "externalConsole": true,
+            "linux": {
+                "MIMode": "gdb",
+                "setupCommands": [
+                    {
+                        "description": "Enable pretty-printing for gdb",
+                        "text": "-enable-pretty-printing",
+                        "ignoreFailures": true
+                    }
+                ]
+            },
+            "osx": {
+                "MIMode": "lldb"
+            },
+            "windows": {
+                "program": "${workspaceRoot}/thumbsim.exe",
+                "MIMode": "gdb",
+                "miDebuggerPath": "C:\\Program Files\\mingw-w64\\x86_64-6.3.0-posix-seh-rt_v5-rev1\\mingw64\\bin\\gdb.exe",
+                "setupCommands": [
+                    {
+                        "description": "Enable pretty-printing for gdb",
+                        "text": "-enable-pretty-printing",
+                        "ignoreFailures": true
+                    }
+                ]
+            }
+        },
+        {
+            "name": "fib.sim Test",
+            "type": "cppdbg",
+            "request": "launch",
+            "preLaunchTask": "g++",
+            "program": "${workspaceRoot}/thumbsim.exe",
+            "args": ["-i", "-d", "-f", "inputs/fib.sim"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceRoot}",
+            "environment": [],
+            "externalConsole": true,
+            "linux": {
+                "MIMode": "gdb",
+                "setupCommands": [
+                    {
+                        "description": "Enable pretty-printing for gdb",
+                        "text": "-enable-pretty-printing",
+                        "ignoreFailures": true
+                    }
+                ]
+            },
+            "osx": {
+                "MIMode": "lldb"
+            },
+            "windows": {
+                "program": "${workspaceRoot}/thumbsim.exe",
+                "MIMode": "gdb",
+                "miDebuggerPath": "C:\\Program Files\\mingw-w64\\x86_64-6.3.0-posix-seh-rt_v5-rev1\\mingw64\\bin\\gdb.exe",
+                "setupCommands": [
+                    {
+                        "description": "Enable pretty-printing for gdb",
+                        "text": "-enable-pretty-printing",
+                        "ignoreFailures": true
+                    }
+                ]
+            }
+        },
+        {
+            "name": "shang.O0.sim Test",
+            "type": "cppdbg",
+            "request": "launch",
+            "preLaunchTask": "g++",
+            "program": "${workspaceRoot}/thumbsim.exe",
+            "args": ["-i", "-d", "-f", "inputs/shang.O0.sim"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceRoot}",
+            "environment": [],
+            "externalConsole": true,
+            "linux": {
+                "MIMode": "gdb",
+                "setupCommands": [
+                    {
+                        "description": "Enable pretty-printing for gdb",
+                        "text": "-enable-pretty-printing",
+                        "ignoreFailures": true
+                    }
+                ]
+            },
+            "osx": {
+                "MIMode": "lldb"
+            },
+            "windows": {
+                "program": "${workspaceRoot}/thumbsim.exe",
+                "MIMode": "gdb",
+                "miDebuggerPath": "C:\\Program Files\\mingw-w64\\x86_64-6.3.0-posix-seh-rt_v5-rev1\\mingw64\\bin\\gdb.exe",
+                "setupCommands": [
+                    {
+                        "description": "Enable pretty-printing for gdb",
+                        "text": "-enable-pretty-printing",
+                        "ignoreFailures": true
+                    }
+                ]
+            }
+        },
+        {
+            "name": "shang.O1.sim Test",
+            "type": "cppdbg",
+            "request": "launch",
+            "preLaunchTask": "g++",
+            "program": "${workspaceRoot}/thumbsim.exe",
+            "args": ["-i", "-d", "-f", "inputs/shang.O1.sim"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceRoot}",
+            "environment": [],
+            "externalConsole": true,
+            "linux": {
+                "MIMode": "gdb",
+                "setupCommands": [
+                    {
+                        "description": "Enable pretty-printing for gdb",
+                        "text": "-enable-pretty-printing",
+                        "ignoreFailures": true
+                    }
+                ]
+            },
+            "osx": {
+                "MIMode": "lldb"
+            },
+            "windows": {
+                "program": "${workspaceRoot}/thumbsim.exe",
+                "MIMode": "gdb",
+                "miDebuggerPath": "C:\\Program Files\\mingw-w64\\x86_64-6.3.0-posix-seh-rt_v5-rev1\\mingw64\\bin\\gdb.exe",
+                "setupCommands": [
+                    {
+                        "description": "Enable pretty-printing for gdb",
+                        "text": "-enable-pretty-printing",
+                        "ignoreFailures": true
+                    }
+                ]
+            }
+        },
+        {
+            "name": "shang.O2.sim Test",
+            "type": "cppdbg",
+            "request": "launch",
+            "preLaunchTask": "g++",
+            "program": "${workspaceRoot}/thumbsim.exe",
+            "args": ["-i", "-d", "-f", "inputs/shang.O2.sim"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceRoot}",
+            "environment": [],
+            "externalConsole": true,
+            "linux": {
+                "MIMode": "gdb",
+                "setupCommands": [
+                    {
+                        "description": "Enable pretty-printing for gdb",
+                        "text": "-enable-pretty-printing",
+                        "ignoreFailures": true
+                    }
+                ]
+            },
+            "osx": {
+                "MIMode": "lldb"
+            },
+            "windows": {
+                "program": "${workspaceRoot}/thumbsim.exe",
+                "MIMode": "gdb",
+                "miDebuggerPath": "C:\\Program Files\\mingw-w64\\x86_64-6.3.0-posix-seh-rt_v5-rev1\\mingw64\\bin\\gdb.exe",
+                "setupCommands": [
+                    {
+                        "description": "Enable pretty-printing for gdb",
+                        "text": "-enable-pretty-printing",
+                        "ignoreFailures": true
+                    }
+                ]
+            }
+        },
+    ]
+}
