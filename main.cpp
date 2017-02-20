@@ -1,5 +1,5 @@
+#include <unistd.h>
 #include "thumbsim.hpp"
-#include "unistd.h"
 
 Memory<Data16,Data16> imem(0x8000);
 Memory<Data8,Data32> dmem(0xffff0000);
@@ -36,7 +36,7 @@ int main(int argc, char ** argv) {
     }
   }
 
-  if (filename == "") {
+  if (filename.empty()) {
     cerr << "ERROR: no source file specified; "
          << "run this program with -f filename" << endl;
     exit(1);
