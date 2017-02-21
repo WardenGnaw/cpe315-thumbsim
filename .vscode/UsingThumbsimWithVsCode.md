@@ -7,7 +7,7 @@ Below are instructions on how to set it up for your machine.
 
 ## OSX or Linux
 
-1. Install VSCode from [code.visualstudio.com](code.visualstudio.com).
+1. Install VSCode from [code.visualstudio.com](https://code.visualstudio.com).
 2. Install C/C++ Extension by Microsoft
 3. Reload
 4. (Optional: Install VsVim Extension if you are a VIM user)
@@ -18,8 +18,8 @@ Below are instructions on how to set it up for your machine.
 ## Windows
 This is a handful, but it will allow you to compile and run C/C++ programs on your computer.
 
-1. Install [MinGW64](mingw-w64.org) to 'C:\MinGW'. And add its bin directory to your windows PATH. E.g. C:\MinGW\mingw64\bin
-2. Install VSCode from [code.visualstudio.com](code.visualstudio.com).
+1. Install [MinGW64](https://mingw-w64.org) to 'C:\MinGW'. And add its bin directory to your windows PATH. E.g. C:\MinGW\mingw64\bin
+2. Install VSCode from [code.visualstudio.com](https://code.visualstudio.com).
 3. Install C/C++ Extension by Microsoft
 4. Reload
 5. (Optional: Install VsVim Extension if you are a VIM user)
