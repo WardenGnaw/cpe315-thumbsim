@@ -149,4 +149,4 @@ If you call "thumbsim -c 256" the system automatically instantiates several
   * 10 points for Shang at O0 optimization
 
 ## Other
- This is not required, but feel free to try out this project with (Visual Studio Code)[.vscode/UsingThumbsimWithVsCode.md]
+ This is not required, but feel free to try out this project with [Visual Studio Code](.vscode/UsingThumbsimWithVsCode.md)
