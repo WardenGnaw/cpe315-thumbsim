@@ -5,6 +5,7 @@
             "name": "bytetest.sim Test",
             "type": "cppdbg",
             "request": "launch",
+            "preLaunchTask": "Compile",
             "program": "${workspaceRoot}/thumbsim.exe",
             "args": ["-i", "-d", "-f", "inputs/bytetest.sim"],
             "stopAtEntry": false,
@@ -25,6 +26,7 @@
                 "MIMode": "lldb"
             },
             "windows": {
+                "preLaunchTask": "CompileWindows",
                 "program": "${workspaceRoot}\\thumbsim.exe",
                 "MIMode": "gdb",
                 "miDebuggerPath": "C:\\MinGW\\mingw64\\bin\\gdb.exe",
@@ -41,6 +43,7 @@
             "name": "fib.sim Test",
             "type": "cppdbg",
             "request": "launch",
+            "preLaunchTask": "Compile",
             "program": "${workspaceRoot}/thumbsim.exe",
             "args": ["-i", "-d", "-f", "inputs/fib.sim"],
             "stopAtEntry": false,
@@ -61,6 +64,7 @@
                 "MIMode": "lldb"
             },
             "windows": {
+                "preLaunchTask": "CompileWindows",
                 "program": "${workspaceRoot}/thumbsim.exe",
                 "MIMode": "gdb",
                 "miDebuggerPath": "C:\\MinGW\\mingw64\\bin\\gdb.exe",
@@ -77,6 +81,7 @@
             "name": "shang.O0.sim Test",
             "type": "cppdbg",
             "request": "launch",
+            "preLaunchTask": "Compile",
             "program": "${workspaceRoot}/thumbsim.exe",
             "args": ["-i", "-d", "-f", "inputs/shang.O0.sim"],
             "stopAtEntry": false,
@@ -97,6 +102,7 @@
                 "MIMode": "lldb"
             },
             "windows": {
+                "preLaunchTask": "CompileWindows",
                 "program": "${workspaceRoot}/thumbsim.exe",
                 "MIMode": "gdb",
                 "miDebuggerPath": "C:\\MinGW\\mingw64\\bin\\gdb.exe",
@@ -113,6 +119,7 @@
             "name": "shang.O1.sim Test",
             "type": "cppdbg",
             "request": "launch",
+            "preLaunchTask": "Compile",
             "program": "${workspaceRoot}/thumbsim.exe",
             "args": ["-i", "-d", "-f", "inputs/shang.O1.sim"],
             "stopAtEntry": false,
@@ -133,6 +140,7 @@
                 "MIMode": "lldb"
             },
             "windows": {
+                "preLaunchTask": "CompileWindows",
                 "program": "${workspaceRoot}/thumbsim.exe",
                 "MIMode": "gdb",
                 "miDebuggerPath": "C:\\MinGW\\mingw64\\bin\\gdb.exe",
@@ -149,6 +157,7 @@
             "name": "shang.O2.sim Test",
             "type": "cppdbg",
             "request": "launch",
+            "preLaunchTask": "Compile",
             "program": "${workspaceRoot}/thumbsim.exe",
             "args": ["-i", "-d", "-f", "inputs/shang.O2.sim"],
             "stopAtEntry": false,
@@ -169,6 +178,7 @@
                 "MIMode": "lldb"
             },
             "windows": {
+                "preLaunchTask": "CompileWindows",
                 "program": "${workspaceRoot}/thumbsim.exe",
                 "MIMode": "gdb",
                 "miDebuggerPath": "C:\\MinGW\\mingw64\\bin\\gdb.exe",

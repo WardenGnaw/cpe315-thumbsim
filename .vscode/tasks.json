@@ -1,0 +1,38 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "0.1.0",
+    "isShellCommand": true,
+    "showOutput": "always",
+    "suppressTaskName": true,
+    "tasks": [
+        {
+            "taskName": "CompileWindows",
+            "command": "C:\\MinGW\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-g",
+                "decode.cpp",
+                "execute.cpp",
+                "main.cpp",
+                "parse.cpp",
+                "thumbsim_driver.cpp",
+                "-o",
+                "thumbsim.exe"
+            ]
+        },
+        {
+            "taskName": "Compile",
+            "command": "g++",
+            "args": [
+                "-g",
+                "decode.cpp",
+                "execute.cpp",
+                "main.cpp",
+                "parse.cpp",
+                "thumbsim_driver.cpp",
+                "-o",
+                "thumbsim"
+            ]
+        }
+    ]
+}

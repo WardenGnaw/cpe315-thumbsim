@@ -1,5 +1,5 @@
-#ifndef _DECODE_H_
-#define _DECODE_H_
+#pragma once
+
 #include <unistd.h>
 #include <iostream>
 #include <vector>
@@ -846,4 +846,3 @@ int decode (const STM_Type);
 int decode (const LDRL_Type);
 int decode (const ADD_SP_Type);
 void execute();  
-#endif
