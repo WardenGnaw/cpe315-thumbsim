@@ -5,6 +5,8 @@ VsCode is an IDE developed by Microsoft and is free to use on all OS platforms (
 
 Below are instructions on how to set it up for your machine.
 
+![VsCode Icon Cheatsheet](IconHelp.png)
+
 ## OSX or Linux
 
 1. Install VSCode from [code.visualstudio.com](https://code.visualstudio.com).
